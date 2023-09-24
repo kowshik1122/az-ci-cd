@@ -19,8 +19,8 @@ spec:
         app: demo
     spec:
       containers:
-      - image: kowshi123/petshop1
-        name: petshop1
+      - image: kowshi123/my-app
+        name: my-app1
         ports:
         - containerPort: 8080
         resources: {}
